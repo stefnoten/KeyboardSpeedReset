@@ -1,5 +1,13 @@
-Originally from http://thumpers-hole.net/ via http://superuser.com/questions/244960/windows-7-keyboard-repeat-rate-and-delay-are-reset-on-resume-from-standby-slee
+Keyboard Speed fix
+======================
 
-http://msdn.microsoft.com/en-us/library/windows/desktop/aa373247(v=vs.85).aspx
-http://www.codeproject.com/Articles/39174/Automated-Power-Management-Operations-of-Windows-S
-http://codeidol.com/community/dotnet/dealing-with-operating-system-shutdown-power-manag/9173/
+Description
+-------------
+There seems to be a bug in Windows 8+. When the laptop wakes up from sleep, it forgets the keyboard speed settings
+
+Original authors:
+------------------
+Originally from:
+   http://thumpers-hole.net/ 
+via:
+   http://superuser.com/questions/244960/windows-7-keyboard-repeat-rate-and-delay-are-reset-on-resume-from-standby-slee
