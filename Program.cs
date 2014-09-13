@@ -14,7 +14,11 @@ namespace KeyboardSpeedReset
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            using (ProcessIcon pi = new ProcessIcon())
+            {
+                pi.Display();
+                Application.Run();
+            }
         }
     }
 }
